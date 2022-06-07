@@ -8,7 +8,7 @@ function App() {
     <div>
         
     <BrowserRouter>
-        <Navbar/>
+      <Navbar/>
       <Routes>
         <Route  path="/" element={<News key="general" pagesize={18} country={'in'} category={"general"}/>}/>
           <Route exact path="/Business" element={<News key="business" pagesize={18} country={'in'} category={"business"}/>} />
